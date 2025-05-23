@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Clases project",
+    "\\Clases project\\Clases project",
+    "\\Ex03.ConsoleUI",
+    "\\GarageLogic"
   ],
+  "SelectedNode": "\\Clases project\\Clases project\\Tire.cs",
   "PreviewInSolutionExplorer": false
 }
