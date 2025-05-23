@@ -1,13 +1,27 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\",
+  "WorkspaceRootPath": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|c:\\users\\almog\\onedrive\\documents\\github\\ex03c-\\ex03\\clases project\\clases project\\tire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|solutionrelative:clases project\\tire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6BB333C-48EA-4094-8091-4331EA4F9475}|..\\Ex03.ConsoleUI\\Ex03.ConsoleUI.csproj|c:\\users\\nadav\\documents\\github\\ex03c-\\ex03\\ex03.consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|c:\\users\\almog\\onedrive\\documents\\github\\ex03c-\\ex03\\clases project\\clases project\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|..\\GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\nadav\\documents\\github\\ex03c-\\ex03\\garagelogic\\garagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nadav\\AppData\\Local\\Temp\\6ffc8ae5-61ce-4781-aaba-a673f826a024_DN_MTA_2025B_Ex03 (1) (1).zip.024\\VehicleCreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|..\\GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\nadav\\documents\\github\\ex03c-\\ex03\\garagelogic\\valuerangeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|..\\GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\nadav\\documents\\github\\ex03c-\\ex03\\garagelogic\\evehiclestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|..\\GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\nadav\\documents\\github\\ex03c-\\ex03\\garagelogic\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\clases project\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|solutionrelative:clases project\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,7 +32,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,29 +44,91 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Tire.cs",
-              "DocumentMoniker": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\Clases project\\Tire.cs",
-              "RelativeDocumentMoniker": "Clases project\\Tire.cs",
-              "ToolTip": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\Clases project\\Tire.cs",
-              "RelativeToolTip": "Clases project\\Tire.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ValueRangeException.cs",
+              "DocumentMoniker": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\GarageLogic\\ValueRangeException.cs",
+              "RelativeDocumentMoniker": "..\\GarageLogic\\ValueRangeException.cs",
+              "ToolTip": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\GarageLogic\\ValueRangeException.cs",
+              "RelativeToolTip": "..\\GarageLogic\\ValueRangeException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T10:08:25.732Z",
+              "WhenOpened": "2025-05-23T14:10:11.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Ex03.ConsoleUI\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Ex03.ConsoleUI\\Program.cs",
+              "ToolTip": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Ex03.ConsoleUI\\Program.cs",
+              "RelativeToolTip": "..\\Ex03.ConsoleUI\\Program.cs",
+              "ViewState": "AgIAAGUBAAAAAAAAAAAAwHQBAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T12:30:04.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VehicleCreator.cs",
+              "DocumentMoniker": "C:\\Users\\nadav\\AppData\\Local\\Temp\\6ffc8ae5-61ce-4781-aaba-a673f826a024_DN_MTA_2025B_Ex03 (1) (1).zip.024\\VehicleCreator.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\6ffc8ae5-61ce-4781-aaba-a673f826a024_DN_MTA_2025B_Ex03 (1) (1).zip.024\\VehicleCreator.cs",
+              "ToolTip": "C:\\Users\\nadav\\AppData\\Local\\Temp\\6ffc8ae5-61ce-4781-aaba-a673f826a024_DN_MTA_2025B_Ex03 (1) (1).zip.024\\VehicleCreator.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\6ffc8ae5-61ce-4781-aaba-a673f826a024_DN_MTA_2025B_Ex03 (1) (1).zip.024\\VehicleCreator.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T11:38:19.516Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Vehicle.cs",
-              "DocumentMoniker": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\Clases project\\Vehicle.cs",
-              "RelativeDocumentMoniker": "Clases project\\Vehicle.cs",
-              "ToolTip": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\Clases project\\Vehicle.cs",
-              "RelativeToolTip": "Clases project\\Vehicle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "GarageManager.cs",
+              "DocumentMoniker": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\GarageLogic\\GarageManager.cs",
+              "RelativeDocumentMoniker": "..\\GarageLogic\\GarageManager.cs",
+              "ToolTip": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\GarageLogic\\GarageManager.cs",
+              "RelativeToolTip": "..\\GarageLogic\\GarageManager.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAAwIYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T10:06:58.738Z",
+              "WhenOpened": "2025-05-23T10:26:49.716Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "eVehicleStatus.cs",
+              "DocumentMoniker": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\GarageLogic\\eVehicleStatus.cs",
+              "RelativeDocumentMoniker": "..\\GarageLogic\\eVehicleStatus.cs",
+              "ToolTip": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\GarageLogic\\eVehicleStatus.cs",
+              "RelativeToolTip": "..\\GarageLogic\\eVehicleStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T10:24:10.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\GarageLogic\\App.config",
+              "RelativeDocumentMoniker": "..\\GarageLogic\\App.config",
+              "ToolTip": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\GarageLogic\\App.config",
+              "RelativeToolTip": "..\\GarageLogic\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-23T10:19:47.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\Clases project\\Vehicle.cs",
+              "RelativeDocumentMoniker": "Clases project\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\Clases project\\Vehicle.cs",
+              "RelativeToolTip": "Clases project\\Vehicle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T10:06:58.738Z"
             }
           ]
         }
