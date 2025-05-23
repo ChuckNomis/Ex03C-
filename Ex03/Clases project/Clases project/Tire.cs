@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Ex03.GarageLogic;
 
 namespace Clases_project
 {
@@ -18,7 +19,7 @@ namespace Clases_project
         {
             if(m_currentTirePressure + i_tirePresureToAdd > m_maxTirePressure)
             {
-                throw new ValueRangeException($"Cannot inflate beyond max pressure of {m_maxTirePressure}.", 0, m_maxTirePressure); 
+                throw new Exception($"Cannot inflate beyond max pressure of {m_maxTirePressure}."); 
             }
             m_currentTirePressure += i_tirePresureToAdd; 
         }

@@ -3,52 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|c:\\users\\almog\\onedrive\\documents\\github\\ex03c-\\ex03\\clases project\\clases project\\tire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E6BB333C-48EA-4094-8091-4331EA4F9475}|..\\Ex03.ConsoleUI\\Ex03.ConsoleUI.csproj|c:\\users\\almog\\onedrive\\documents\\github\\ex03c-\\ex03\\ex03.consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|..\\GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\almog\\onedrive\\documents\\github\\ex03c-\\ex03\\garagelogic\\garagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|..\\GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\almog\\onedrive\\documents\\github\\ex03c-\\ex03\\garagelogic\\evehiclestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\clases project\\tire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|solutionrelative:clases project\\tire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|c:\\users\\almog\\onedrive\\documents\\github\\ex03c-\\ex03\\clases project\\clases project\\fuelcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\clases project\\fuelcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|solutionrelative:clases project\\fuelcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|c:\\users\\almog\\onedrive\\documents\\github\\ex03c-\\ex03\\clases project\\clases project\\electriccar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|solutionrelative:clases project\\electriccar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|c:\\users\\almog\\onedrive\\documents\\github\\ex03c-\\ex03\\clases project\\clases project\\fuelmotorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|solutionrelative:clases project\\fuelmotorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|c:\\users\\almog\\onedrive\\documents\\github\\ex03c-\\ex03\\clases project\\clases project\\electricmotorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|solutionrelative:clases project\\electricmotorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|c:\\users\\almog\\onedrive\\documents\\github\\ex03c-\\ex03\\clases project\\clases project\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|solutionrelative:clases project\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|c:\\users\\almog\\onedrive\\documents\\github\\ex03c-\\ex03\\clases project\\clases project\\motorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|solutionrelative:clases project\\motorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|c:\\users\\almog\\onedrive\\documents\\github\\ex03c-\\ex03\\clases project\\clases project\\fueltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|solutionrelative:clases project\\fueltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|c:\\users\\almog\\onedrive\\documents\\github\\ex03c-\\ex03\\clases project\\clases project\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\clases project\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|solutionrelative:clases project\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|c:\\users\\almog\\onedrive\\documents\\github\\ex03c-\\ex03\\clases project\\clases project\\electrictype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|solutionrelative:clases project\\electrictype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|c:\\users\\almog\\onedrive\\documents\\github\\ex03c-\\ex03\\clases project\\clases project\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|solutionrelative:clases project\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\clases project\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|solutionrelative:clases project\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\clases project\\motorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|solutionrelative:clases project\\motorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\clases project\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|solutionrelative:clases project\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\clases project\\electrictype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|solutionrelative:clases project\\electrictype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\clases project\\fueltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|solutionrelative:clases project\\fueltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|..\\GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\almog\\onedrive\\documents\\github\\ex03c-\\ex03\\garagelogic\\valuerangeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\clases project\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|solutionrelative:clases project\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\clases project\\electriccar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|solutionrelative:clases project\\electriccar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\clases project\\fuelmotorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|solutionrelative:clases project\\fuelmotorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\clases project\\electricmotorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0362881E-58ED-463A-BF88-40FA993E948F}|Clases project\\Clases project.csproj|solutionrelative:clases project\\electricmotorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,8 +70,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Truck.cs",
+              "DocumentMoniker": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\Clases project\\Truck.cs",
+              "RelativeDocumentMoniker": "Clases project\\Truck.cs",
+              "ToolTip": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\Clases project\\Truck.cs",
+              "RelativeToolTip": "Clases project\\Truck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T13:10:45.719Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FuelCar.cs",
+              "DocumentMoniker": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\Clases project\\FuelCar.cs",
+              "RelativeDocumentMoniker": "Clases project\\FuelCar.cs",
+              "ToolTip": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\Clases project\\FuelCar.cs",
+              "RelativeToolTip": "Clases project\\FuelCar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T13:59:19.92Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Tire.cs",
+              "DocumentMoniker": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\Clases project\\Tire.cs",
+              "RelativeDocumentMoniker": "Clases project\\Tire.cs",
+              "ToolTip": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\Clases project\\Tire.cs",
+              "RelativeToolTip": "Clases project\\Tire.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T10:08:25.732Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Ex03.ConsoleUI\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Ex03.ConsoleUI\\Program.cs",
+              "ToolTip": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Ex03.ConsoleUI\\Program.cs",
+              "RelativeToolTip": "..\\Ex03.ConsoleUI\\Program.cs",
+              "ViewState": "AgIAAG8BAAAAAAAAAAAnwG8BAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T17:30:46.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "eVehicleStatus.cs",
+              "DocumentMoniker": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\GarageLogic\\eVehicleStatus.cs",
+              "RelativeDocumentMoniker": "..\\GarageLogic\\eVehicleStatus.cs",
+              "ToolTip": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\GarageLogic\\eVehicleStatus.cs",
+              "RelativeToolTip": "..\\GarageLogic\\eVehicleStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T17:26:59.236Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -70,7 +150,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "GarageManager.cs",
+              "DocumentMoniker": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\GarageLogic\\GarageManager.cs",
+              "RelativeDocumentMoniker": "..\\GarageLogic\\GarageManager.cs",
+              "ToolTip": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\GarageLogic\\GarageManager.cs",
+              "RelativeToolTip": "..\\GarageLogic\\GarageManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T16:59:50.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ValueRangeException.cs",
+              "DocumentMoniker": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\GarageLogic\\ValueRangeException.cs",
+              "RelativeDocumentMoniker": "..\\GarageLogic\\ValueRangeException.cs",
+              "ToolTip": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\GarageLogic\\ValueRangeException.cs",
+              "RelativeToolTip": "..\\GarageLogic\\ValueRangeException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T16:51:03.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "ElectricMotorcycle.cs",
               "DocumentMoniker": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\Clases project\\ElectricMotorcycle.cs",
               "RelativeDocumentMoniker": "Clases project\\ElectricMotorcycle.cs",
@@ -83,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
               "Title": "FuelMotorcycle.cs",
               "DocumentMoniker": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\Clases project\\FuelMotorcycle.cs",
               "RelativeDocumentMoniker": "Clases project\\FuelMotorcycle.cs",
@@ -96,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "ElectricCar.cs",
               "DocumentMoniker": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\Clases project\\ElectricCar.cs",
               "RelativeDocumentMoniker": "Clases project\\ElectricCar.cs",
@@ -109,52 +215,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FuelCar.cs",
-              "DocumentMoniker": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\Clases project\\FuelCar.cs",
-              "RelativeDocumentMoniker": "Clases project\\FuelCar.cs",
-              "ToolTip": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\Clases project\\FuelCar.cs",
-              "RelativeToolTip": "Clases project\\FuelCar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T13:59:19.92Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Truck.cs",
-              "DocumentMoniker": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\Clases project\\Truck.cs",
-              "RelativeDocumentMoniker": "Clases project\\Truck.cs",
-              "ToolTip": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\Clases project\\Truck.cs",
-              "RelativeToolTip": "Clases project\\Truck.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T13:10:45.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Motorcycle.cs",
               "DocumentMoniker": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\Clases project\\Motorcycle.cs",
               "RelativeDocumentMoniker": "Clases project\\Motorcycle.cs",
               "ToolTip": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\Clases project\\Motorcycle.cs",
               "RelativeToolTip": "Clases project\\Motorcycle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwAoAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T13:02:54.46Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Car.cs",
               "DocumentMoniker": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\Clases project\\Car.cs",
               "RelativeDocumentMoniker": "Clases project\\Car.cs",
               "ToolTip": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\Clases project\\Car.cs",
               "RelativeToolTip": "Clases project\\Car.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwAwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T12:39:41.545Z",
               "EditorCaption": ""
@@ -167,27 +247,27 @@
               "RelativeDocumentMoniker": "Clases project\\ElectricType.cs",
               "ToolTip": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\Clases project\\ElectricType.cs",
               "RelativeToolTip": "Clases project\\ElectricType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAIwBYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T12:37:37.63Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "FuelType.cs",
               "DocumentMoniker": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\Clases project\\FuelType.cs",
               "RelativeDocumentMoniker": "Clases project\\FuelType.cs",
               "ToolTip": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\Clases project\\FuelType.cs",
               "RelativeToolTip": "Clases project\\FuelType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwBoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T12:28:03.582Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Enums.cs",
               "DocumentMoniker": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\Clases project\\Enums.cs",
               "RelativeDocumentMoniker": "Clases project\\Enums.cs",
@@ -200,26 +280,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Tire.cs",
-              "DocumentMoniker": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\Clases project\\Tire.cs",
-              "RelativeDocumentMoniker": "Clases project\\Tire.cs",
-              "ToolTip": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\Clases project\\Tire.cs",
-              "RelativeToolTip": "Clases project\\Tire.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAkwBQAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T10:08:25.732Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 6,
               "Title": "Vehicle.cs",
               "DocumentMoniker": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\Clases project\\Vehicle.cs",
               "RelativeDocumentMoniker": "Clases project\\Vehicle.cs",
               "ToolTip": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\Ex03\\Clases project\\Clases project\\Vehicle.cs",
               "RelativeToolTip": "Clases project\\Vehicle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAgwBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T10:06:58.738Z",
               "EditorCaption": ""

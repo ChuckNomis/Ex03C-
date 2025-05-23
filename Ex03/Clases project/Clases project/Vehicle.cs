@@ -15,6 +15,9 @@ namespace Clases_project
         protected List<Tire> m_listOfTires;
         protected string m_ownerName;
         protected string m_ownerPhone;
-        protected EVehicleStatus m_vehicleStatus;
+        protected EVehicleStatus m_vehicleStatus = EVehicleStatus.InRepair;
     }
+
+    //functions: 
+
 }
