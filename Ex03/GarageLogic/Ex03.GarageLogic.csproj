@@ -39,7 +39,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="eVehicleStatus.cs" />
     <Compile Include="GarageManager.cs" />
     <Compile Include="ValueRangeException.cs" />
   </ItemGroup>
