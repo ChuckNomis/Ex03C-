@@ -1,0 +1,2 @@
+C:\Users\almog\OneDrive\Documents\GitHub\Ex03C-\Ex03\Clases project\Clases project\obj\Debug\Clases project.csproj.AssemblyReference.cache
+C:\Users\almog\OneDrive\Documents\GitHub\Ex03C-\Ex03\Clases project\Clases project\obj\Debug\Clases project.csproj.CoreCompileInputs.cache

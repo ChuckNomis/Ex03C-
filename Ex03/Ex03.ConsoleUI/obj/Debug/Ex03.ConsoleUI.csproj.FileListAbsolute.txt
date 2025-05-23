@@ -1,0 +1,2 @@
+C:\Users\almog\OneDrive\Documents\GitHub\Ex03C-\Ex03\Ex03.ConsoleUI\obj\Debug\Ex03.ConsoleUI.csproj.AssemblyReference.cache
+C:\Users\almog\OneDrive\Documents\GitHub\Ex03C-\Ex03\Ex03.ConsoleUI\obj\Debug\Ex03.ConsoleUI.csproj.CoreCompileInputs.cache

@@ -8,5 +8,19 @@ namespace Clases_project
 {
     internal class Tire
     {
+        protected string m_manufacturerName;
+        protected float m_currentTirePressure;
+        protected float m_maxTirePressure; 
+
+
+        //functions: 
+        public void TireInflating (float i_tirePresureToAdd)
+        {
+            if(m_currentTirePressure + i_tirePresureToAdd > m_maxTirePressure)
+            {
+                throw new ValueRangeException($"Cannot inflate beyond max pressure of {m_maxTirePressure}.", 0, m_maxTirePressure); 
+            }
+            m_currentTirePressure += i_tirePresureToAdd; 
+        }
     }
 }
