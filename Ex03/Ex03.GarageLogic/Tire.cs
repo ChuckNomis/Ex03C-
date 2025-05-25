@@ -7,7 +7,7 @@ using Ex03.GarageLogic;
 
 namespace Ex03.GarageLogic
 {
-    internal class Tire
+    public class Tire
     {
         protected string m_manufacturerName;
         protected float m_currentTirePressure;
@@ -15,6 +15,12 @@ namespace Ex03.GarageLogic
 
 
         //functions: 
+
+        public override string ToString()
+        {
+            return $"Manufacturer: {m_manufacturerName}, Pressure: {m_currentTirePressure}/{m_maxTirePressure}";
+        }
+
         public Tire(float i_maxTirePressure, float i_currentPressure, string i_manufacturer = "")
         {
             if (i_currentPressure > i_maxTirePressure)
@@ -49,6 +55,15 @@ namespace Ex03.GarageLogic
         public float MaxTirePressure
         {
             get { return m_maxTirePressure; }
+        }
+
+        public void InflateToMax()
+        {
+            if (m_currentTirePressure >= m_maxTirePressure)
+            {
+                throw new Exception($"Tire is already at max pressure of {m_maxTirePressure}.");
+            }
+            m_currentTirePressure = m_maxTirePressure;
         }
 
         public void TireInflating (float i_tirePresureToAdd)

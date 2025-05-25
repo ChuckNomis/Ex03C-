@@ -7,7 +7,7 @@ using static Ex03.GarageLogic.Enums;
 
 namespace Ex03.GarageLogic
 {
-    internal class Vehicle
+    public class Vehicle
     {
         protected string m_modelName;
         protected string m_licensePlate;
@@ -28,7 +28,16 @@ namespace Ex03.GarageLogic
             m_ownerPhone = string.Empty;
             m_vehicleStatus = EVehicleStatus.InRepair;
         }
-
+        public Vehicle(string i_LicensePlate, string i_ModelName)
+        {
+            m_licensePlate = i_LicensePlate;
+            m_modelName = i_ModelName;
+            m_currentEnergyPercent = 0f;
+            m_listOfTires = new List<Tire>();
+            m_ownerName = string.Empty;
+            m_ownerPhone = string.Empty;
+            m_vehicleStatus = EVehicleStatus.InRepair;
+        }
         public string ModelName
         {
             get { return m_modelName; }

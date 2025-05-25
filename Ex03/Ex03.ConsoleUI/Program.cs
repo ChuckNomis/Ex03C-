@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Runtime.ConstrainedExecution;
 using Ex03.GarageLogic;
+using static Ex03.GarageLogic.Enums;
 
 namespace Ex03.ConsoleUI
 {
@@ -12,14 +12,7 @@ namespace Ex03.ConsoleUI
         {
             try
             {
-                Console.WriteLine("Enter path to Vehicles.db (or leave blank for default):");
-                string path = Console.ReadLine();
-
-                if (string.IsNullOrWhiteSpace(path))
-                {
-                    path = "Vehicles.db"; // default
-                }
-
+                string path = "Vehicles.db";
                 s_Garage.LoadVehiclesFromFile(path);
                 Console.WriteLine("Vehicles loaded successfully.");
             }
@@ -86,7 +79,7 @@ namespace Ex03.ConsoleUI
 
             if (s_Garage.ContainsVehicle(license))
             {
-                s_Garage.ChangeVehicleStatus(license, eVehicleStatus.InRepair);
+                s_Garage.ChangeVehicleStatus(license, EVehicleStatus.InRepair);
                 Console.WriteLine("Vehicle already in garage. Status changed to 'InRepair'.");
                 return;
             }
@@ -106,8 +99,44 @@ namespace Ex03.ConsoleUI
 
             Vehicle vehicle = VehicleCreator.CreateVehicle(selectedType, license, model);
 
-            Console.Write("Enter current energy percent (0-100): ");
-            vehicle.CurrentEnergyPercent = float.Parse(Console.ReadLine());
+            while (true)
+            {
+                try
+                {
+                    Console.Write("Enter current energy percent (0-100): ");
+                    string input = Console.ReadLine();
+
+                    float currentPercent;
+                    if (!float.TryParse(input, out currentPercent)) 
+                    {
+                        throw new FormatException("Energy percent must be a number.");
+                    }
+
+                    if (currentPercent < 0 || currentPercent > 100)
+                    {
+                        throw new ValueRangeException(0, 100);
+                    }
+
+                    vehicle.CurrentEnergyPercent = currentPercent;
+                    break;
+                }
+                catch (FormatException ex)
+                {
+                    Console.WriteLine("Format error: " + ex.Message);
+                }
+                catch (ValueRangeException ex)
+                {
+                    Console.WriteLine("Range error: " + ex.Message);
+                }
+                catch (ArgumentException ex)
+                {
+                    Console.WriteLine("Argument error: " + ex.Message);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Unexpected error: " + ex.Message);
+                }
+            }
 
             Console.Write("Enter owner name: ");
             vehicle.OwnerName = Console.ReadLine();
@@ -118,44 +147,192 @@ namespace Ex03.ConsoleUI
             Console.Write("Enter tire manufacturer: ");
             string manufacturer = Console.ReadLine();
 
-            Console.Write("Enter tire pressure for all wheels: ");
-            float pressure = float.Parse(Console.ReadLine());
+            float pressure = 0;
+            while (true)
+            {
+                try
+                {
+                    Console.Write("Enter tire pressure for all wheels (positive number): ");
+                    string input = Console.ReadLine();
+                    if (!float.TryParse(input, out pressure))
+                    {
+                        throw new FormatException("Tire pressure must be a number.");
+                    }
+                    float maxPressure = vehicle.Tires[0].MaxTirePressure;
+                    if (pressure <= 0 || pressure > maxPressure)
+                    {
+                        throw new ValueRangeException(0.01f, maxPressure);
+                    }
+                    break;
+                }
+                catch (FormatException ex)
+                {
+                    Console.WriteLine("Format error: " + ex.Message);
+                }
+                catch (ValueRangeException ex)
+                {
+                    Console.WriteLine("Range error: " + ex.Message);
+                }
+                catch (ArgumentException ex)
+                {
+                    Console.WriteLine("Argument error: " + ex.Message);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Unexpected error: " + ex.Message);
+                }
+            }
 
             foreach (var tire in vehicle.Tires)
             {
                 tire.ManufacturerName = manufacturer;
-                float toInflate = pressure - tire.CurrentPressure;
+                float toInflate = pressure - tire.CurrentTirePressure;
                 if (toInflate > 0)
                 {
-                    tire.Inflate(toInflate);
+                    tire.TireInflating(toInflate);
                 }
             }
 
-            // === TYPE-SPECIFIC INPUTS ===
+            // Type specific inputs
             if (vehicle is Motorcycle motorcycle)
             {
-                Console.Write("Enter license type (A, A2, AB, B2): ");
-                motorcycle.LicenseType = Enum.Parse<eLicenseType>(Console.ReadLine(), true);
+                while (true)
+                {
+                    Console.Write("Enter license type (A, A2, AB, B2): ");
+                    string input = Console.ReadLine();
 
-                Console.Write("Enter engine volume: ");
-                motorcycle.EngineVolume = int.Parse(Console.ReadLine());
+                    if (Enum.TryParse(input, true, out ELicenseType licenseType) &&
+                        Enum.IsDefined(typeof(ELicenseType), licenseType))
+                    {
+                        motorcycle.LicenseType = licenseType;
+                        break;
+                    }
+
+                    Console.WriteLine("Invalid input. Please enter one of: A, A2, AB, B2.");
+                }
+
+
+                while (true)
+                {
+                    try
+                    {
+                        Console.Write("Enter engine volume (positive number): ");
+                        string input = Console.ReadLine();
+                        if (!int.TryParse(input, out int engineVolume))
+                        {
+                            Console.WriteLine("Invalid format. Please enter a whole number.");
+                            continue;
+                        }
+
+                        if (engineVolume <= 0)
+                        {
+                            throw new ValueRangeException(1, int.MaxValue);
+                        }
+
+                        motorcycle.EngineVolume = engineVolume;
+                        break;
+                    }
+                    catch (ValueRangeException ex)
+                    {
+                        Console.WriteLine($"Range error: {ex.Message}");
+                    }
+                }
             }
             else if (vehicle is Car car)
             {
-                Console.Write("Enter color (Black, White, Silver, Yellow): ");
-                car.CarColor = Enum.Parse<eCarColor>(Console.ReadLine(), true);
+                while (true)
+                {
+                    Console.Write("Enter color (Yellow, Black, White, Silver): ");
+                    string input = Console.ReadLine();
+                    if (Enum.TryParse(input, true, out ECarColor color) &&
+                        Enum.IsDefined(typeof(ECarColor), color))
+                    {
+                        car.CarColor = color;
+                        break;
+                    }
+                    Console.WriteLine("Invalid color. Please enter one of: Yellow, Black, White, Silver.");
+                }
 
-                Console.Write("Enter number of doors (2, 3, 4, 5): ");
-                car.NumberOfDoors = Enum.Parse<eNumberOfDoors>(Console.ReadLine(), true);
+                while (true)
+                {
+                    Console.Write("Enter number of doors (2, 3, 4, 5): ");
+                    string input = Console.ReadLine();
+                    if (Enum.TryParse(input, true, out ENumberOfDoors doors) &&
+                        Enum.IsDefined(typeof(ENumberOfDoors), doors))
+                    {
+                        car.NumberOfDoors = doors;
+                        break;
+                    }
+                    Console.WriteLine("Invalid input. Please enter a number: 2, 3, 4, or 5.");
+                }
             }
             else if (vehicle is Truck truck)
             {
-                Console.Write("Is it carrying hazardous materials? (true/false): ");
-                truck.IsCarryingHazardousMaterial = bool.Parse(Console.ReadLine());
+                while (true)
+                {
+                    Console.Write("Is it carrying hazardous materials? (true/false): ");
+                    string input = Console.ReadLine();
+                    if (bool.TryParse(input, out bool isHazardous))
+                    {
+                        truck.IsCargoHazardousMaterial = isHazardous;
+                        break;
+                    }
+                    Console.WriteLine("Invalid input. Please enter 'true' or 'false'.");
+                }
 
-                Console.Write("Enter cargo volume: ");
-                truck.CargoVolume = float.Parse(Console.ReadLine());
+                while (true)
+                {
+                    try
+                    {
+                        Console.Write("Enter cargo volume (positive number): ");
+                        string input = Console.ReadLine();
+                        if (!float.TryParse(input, out float volume))
+                        {
+                            Console.WriteLine("Invalid format. Please enter a number.");
+                            continue;
+                        }
+
+                        if (volume <= 0)
+                        {
+                            throw new ValueRangeException(0.01f, float.MaxValue);
+                        }
+
+                        truck.CargoVolume = volume;
+                        break;
+                    }
+                    catch (ValueRangeException ex)
+                    {
+                        Console.WriteLine($"Range error: {ex.Message}");
+                    }
+                }
             }
+
+
+            float percent = vehicle.CurrentEnergyPercent;
+
+            switch (vehicle)
+            {
+                case FuelCar fuelCar:
+                    fuelCar.FuelInfo.SetFuelLevelFromPercent(percent);
+                    break;
+
+                case FuelMotorcycle fuelMotorcycle:
+                    fuelMotorcycle.FuelInfo.SetFuelLevelFromPercent(percent);
+                    break;
+
+                case Truck truck:
+                    truck.FuelInfo.SetFuelLevelFromPercent(percent);
+                    break;
+
+                case ElectricCar electricCar:
+                    electricCar.ElectricInfo.SetBatteryLevelFromPercent(percent);
+                    break;
+
+                case ElectricMotorcycle electricMotorcycle:
+                    electricMotorcycle.ElectricInfo.SetBatteryLevelFromPercent(percent);
+                    break;
+            }
+
 
             // Add to garage
             s_Garage.AddOrUpdateVehicle(vehicle);
@@ -179,13 +356,13 @@ namespace Ex03.ConsoleUI
                     licenses = s_Garage.GetAllLicenseNumbers();
                     break;
                 case "2":
-                    licenses = s_Garage.GetAllLicenseNumbers(eVehicleStatus.InRepair);
+                    licenses = s_Garage.GetAllLicenseNumbers(EVehicleStatus.InRepair);
                     break;
                 case "3":
-                    licenses = s_Garage.GetAllLicenseNumbers(eVehicleStatus.Repaired);
+                    licenses = s_Garage.GetAllLicenseNumbers(EVehicleStatus.Fixed);
                     break;
                 case "4":
-                    licenses = s_Garage.GetAllLicenseNumbers(eVehicleStatus.Paid);
+                    licenses = s_Garage.GetAllLicenseNumbers(EVehicleStatus.Paid);
                     break;
                 default:
                     Console.WriteLine("Invalid choice. Showing all vehicles.");
@@ -224,18 +401,18 @@ namespace Ex03.ConsoleUI
             Console.WriteLine("3. Paid");
 
             string choice = Console.ReadLine();
-            eVehicleStatus newStatus;
+            EVehicleStatus newStatus;
 
             switch (choice)
             {
                 case "1":
-                    newStatus = eVehicleStatus.InRepair;
+                    newStatus = EVehicleStatus.InRepair;
                     break;
                 case "2":
-                    newStatus = eVehicleStatus.Repaired;
+                    newStatus = EVehicleStatus.Fixed;
                     break;
                 case "3":
-                    newStatus = eVehicleStatus.Paid;
+                    newStatus = EVehicleStatus.Paid;
                     break;
                 default:
                     Console.WriteLine("Invalid status selected.");
@@ -269,38 +446,35 @@ namespace Ex03.ConsoleUI
 
         private static void refuelVehicle()
         {
-            Console.Write("Enter license plate: ");
-            string license = Console.ReadLine();
-
-            if (!s_Garage.ContainsVehicle(license))
-            {
-                Console.WriteLine("Vehicle not found.");
-                return;
-            }
-
             try
             {
+                Console.Write("Enter license plate: ");
+                string license = Console.ReadLine();
+
                 Console.WriteLine("Enter fuel type (Octan95, Octan96, Octan98, Soler):");
                 string fuelTypeInput = Console.ReadLine();
-                eFuelType fuelType = Enum.Parse<eFuelType>(fuelTypeInput, true);
+                if (!Enum.TryParse(fuelTypeInput, true, out EFuelType fuelType))
+                {
+                    throw new ArgumentException("Invalid fuel type.");
+                }
 
                 Console.Write("Enter amount of fuel to add (liters): ");
-                float amount = float.Parse(Console.ReadLine());
+                string input = Console.ReadLine();
+                if (!float.TryParse(input, out float amount) || amount <= 0)
+                {
+                    throw new ValueRangeException(0.01f, float.MaxValue);
+                }
 
                 s_Garage.RefuelVehicle(license, fuelType, amount);
                 Console.WriteLine("Vehicle refueled successfully.");
             }
-            catch (FormatException)
-            {
-                Console.WriteLine("Invalid number format.");
-            }
-            catch (ArgumentException ex)
-            {
-                Console.WriteLine($"Argument error: {ex.Message}");
-            }
             catch (ValueRangeException ex)
             {
                 Console.WriteLine($"Value out of range: {ex.Message}");
+            }
+            catch (ArgumentException ex)
+            {
+                Console.WriteLine($"Invalid input: {ex.Message}");
             }
             catch (Exception ex)
             {

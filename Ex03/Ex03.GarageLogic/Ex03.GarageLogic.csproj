@@ -54,6 +54,7 @@
     <Compile Include="Truck.cs" />
     <Compile Include="ValueRangeException.cs" />
     <Compile Include="Vehicle.cs" />
+    <Compile Include="VehicleCreator.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

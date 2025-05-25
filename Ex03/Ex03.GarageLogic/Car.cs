@@ -8,13 +8,15 @@ using static Ex03.GarageLogic.Enums;
 
 namespace Ex03.GarageLogic
 {
-    internal class Car : Vehicle
+    public class Car : Vehicle
     {
-        protected EColor eColor;
+        protected ECarColor eColor;
         protected ENumberOfDoors eNumberOfDoors;
 
+        public Car(string i_LicensePlate, string i_ModelName): base(i_LicensePlate, i_ModelName){}
+
         //functions: 
-        public EColor CarColor
+        public ECarColor CarColor
         {
             get { return eColor; }
             set { eColor = value; }

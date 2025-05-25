@@ -7,27 +7,25 @@ using GarageLogic;
 
 namespace Ex03.GarageLogic
 {
-    internal class ElectricCar : Car
+    public class ElectricCar : Car
     {
-        protected ElectricType m_electricCarInfo;
+        protected ElectricType m_electricInfo;
         
         //functions: 
-        public ElectricType electricInfo
+        public ElectricType ElectricInfo
         {
-            get { return m_electricCarInfo; }
-            set { m_electricCarInfo = value; }
+            get { return m_electricInfo; }
+            set { m_electricInfo = value; }
         }
 
-        public ElectricCar(string i_licensePlate, string i_modelName)
+        public ElectricCar(string i_licensePlate, string i_modelName): base(i_licensePlate, i_modelName)
         {
-            m_licensePlate = i_licensePlate;
-            m_modelName = i_modelName;
-            m_listOfTires = new List<Tire>(); 
-            for (int i = 0;i < Constants.k_numberOfWheelsCar; i++)
+            m_electricInfo = new ElectricType(4.8f, 0f);
+            m_listOfTires = new List<Tire>();
+            for (int i = 0; i < Constants.k_numberOfWheelsCar; i++)
             {
                 m_listOfTires.Add(new Tire(32f));
             }
-            m_electricCarInfo = new ElectricType(4.8f, 0f); 
         }
     }
 }

@@ -4,29 +4,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using GarageLogic;
+using static Ex03.GarageLogic.Enums;
 
 
 namespace Ex03.GarageLogic
 {
-    internal class FuelCar : Car
+    public class FuelCar : Car
     {   
-        protected readonly FuelType m_fuelCarInfo;
-        
-        //functions: 
-        public FuelCar(string i_licensePLate, string i_modelInfo)
+        protected readonly FuelType m_fuelInfo;
+
+        public FuelCar(string i_LicensePlate, string i_ModelName): base(i_LicensePlate, i_ModelName)
         {
-            m_licensePlate = i_licensePLate;
-            m_modelName = i_modelInfo;
-            m_fuelCarInfo = new FuelType(Enums.EFuelType.Octan95, 48f, 0f);
-            m_listOfTires = new List<Tire>(); 
+            m_fuelInfo = new FuelType(EFuelType.Octan95, 48f, 0f);
+            m_listOfTires = new List<Tire>();
             for (int i = 0; i < Constants.k_numberOfWheelsCar; i++)
             {
                 m_listOfTires.Add(new Tire(32f));
             }
         }
-        public FuelType FuelCarInfo
+        //functions: 
+
+        public FuelType FuelInfo
         {
-            get { return m_fuelCarInfo; }
+            get { return m_fuelInfo; }
         }
     }
 }

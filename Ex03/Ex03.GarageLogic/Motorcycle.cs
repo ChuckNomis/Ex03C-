@@ -9,13 +9,11 @@ using static Ex03.GarageLogic.Enums;
 
 namespace Ex03.GarageLogic
 {
-    internal class Motorcycle : Vehicle
+    public class Motorcycle : Vehicle
     {
         protected ELicenseType eLicenseType;
         protected int m_engineVolume;
 
-
-        //functions:
         public Motorcycle()
         {
             eLicenseType = ELicenseType.A;
@@ -26,6 +24,14 @@ namespace Ex03.GarageLogic
                 m_listOfTires.Add(new Tire(30f));
             }
         }
+        public Motorcycle(string i_licensePlate, string i_modelName): base(i_licensePlate, i_modelName)
+        {
+            eLicenseType = ELicenseType.A;
+            m_engineVolume = 0;
+        }
+
+
+        //functions:
 
         public ELicenseType LicenseType
         {

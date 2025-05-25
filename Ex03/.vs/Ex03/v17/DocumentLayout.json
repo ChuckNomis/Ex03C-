@@ -1,7 +1,68 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\nadav\\documents\\github\\ex03c-\\ex03\\ex03.garagelogic\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6BB333C-48EA-4094-8091-4331EA4F9475}|Ex03.ConsoleUI\\Ex03.ConsoleUI.csproj|c:\\users\\nadav\\documents\\github\\ex03c-\\ex03\\ex03.consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6BB333C-48EA-4094-8091-4331EA4F9475}|Ex03.ConsoleUI\\Ex03.ConsoleUI.csproj|solutionrelative:ex03.consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\nadav\\documents\\github\\ex03c-\\ex03\\ex03.garagelogic\\garagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\garagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\nadav\\documents\\github\\ex03c-\\ex03\\ex03.garagelogic\\motorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\motorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\nadav\\documents\\github\\ex03c-\\ex03\\ex03.garagelogic\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\nadav\\documents\\github\\ex03c-\\ex03\\ex03.garagelogic\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\nadav\\documents\\github\\ex03c-\\ex03\\ex03.garagelogic\\electrictype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\electrictype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\nadav\\documents\\github\\ex03c-\\ex03\\ex03.garagelogic\\fueltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\fueltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\nadav\\documents\\github\\ex03c-\\ex03\\ex03.garagelogic\\vehiclecreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\vehiclecreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\nadav\\documents\\github\\ex03c-\\ex03\\ex03.garagelogic\\electricmotorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\electricmotorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\nadav\\documents\\github\\ex03c-\\ex03\\ex03.garagelogic\\fuelmotorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\fuelmotorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\nadav\\documents\\github\\ex03c-\\ex03\\ex03.garagelogic\\electriccar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\electriccar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\nadav\\documents\\github\\ex03c-\\ex03\\ex03.garagelogic\\fuelcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\fuelcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\nadav\\documents\\github\\ex03c-\\ex03\\ex03.garagelogic\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\nadav\\documents\\github\\ex03c-\\ex03\\ex03.garagelogic\\tire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\tire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,6 +79,214 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 186,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Ex03.GarageLogic\\Enums.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\Enums.cs",
+              "ToolTip": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Ex03.GarageLogic\\Enums.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\Enums.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T16:47:30.708Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Motorcycle.cs",
+              "DocumentMoniker": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Ex03.GarageLogic\\Motorcycle.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\Motorcycle.cs",
+              "ToolTip": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Ex03.GarageLogic\\Motorcycle.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\Motorcycle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T19:58:29.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Truck.cs",
+              "DocumentMoniker": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Ex03.GarageLogic\\Truck.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\Truck.cs",
+              "ToolTip": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Ex03.GarageLogic\\Truck.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\Truck.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T19:58:11.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VehicleCreator.cs",
+              "DocumentMoniker": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Ex03.GarageLogic\\VehicleCreator.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\VehicleCreator.cs",
+              "ToolTip": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Ex03.GarageLogic\\VehicleCreator.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\VehicleCreator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T19:26:12.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Ex03.GarageLogic\\Car.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\Car.cs",
+              "ToolTip": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Ex03.GarageLogic\\Car.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\Car.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T17:57:07.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FuelMotorcycle.cs",
+              "DocumentMoniker": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Ex03.GarageLogic\\FuelMotorcycle.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\FuelMotorcycle.cs",
+              "ToolTip": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Ex03.GarageLogic\\FuelMotorcycle.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\FuelMotorcycle.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T19:57:27.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FuelType.cs",
+              "DocumentMoniker": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Ex03.GarageLogic\\FuelType.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\FuelType.cs",
+              "ToolTip": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Ex03.GarageLogic\\FuelType.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\FuelType.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T19:23:08.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ElectricType.cs",
+              "DocumentMoniker": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Ex03.GarageLogic\\ElectricType.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\ElectricType.cs",
+              "ToolTip": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Ex03.GarageLogic\\ElectricType.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\ElectricType.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T17:21:32.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FuelCar.cs",
+              "DocumentMoniker": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Ex03.GarageLogic\\FuelCar.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\FuelCar.cs",
+              "ToolTip": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Ex03.GarageLogic\\FuelCar.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\FuelCar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T19:23:04.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ElectricMotorcycle.cs",
+              "DocumentMoniker": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Ex03.GarageLogic\\ElectricMotorcycle.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\ElectricMotorcycle.cs",
+              "ToolTip": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Ex03.GarageLogic\\ElectricMotorcycle.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\ElectricMotorcycle.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T17:21:28.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Ex03.GarageLogic\\Vehicle.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Ex03.GarageLogic\\Vehicle.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\Vehicle.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwCUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T19:24:33.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Tire.cs",
+              "DocumentMoniker": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Ex03.GarageLogic\\Tire.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\Tire.cs",
+              "ToolTip": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Ex03.GarageLogic\\Tire.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\Tire.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T17:32:42.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ElectricCar.cs",
+              "DocumentMoniker": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Ex03.GarageLogic\\ElectricCar.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\ElectricCar.cs",
+              "ToolTip": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Ex03.GarageLogic\\ElectricCar.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\ElectricCar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T17:21:49.432Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 214,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Ex03.ConsoleUI\\Program.cs",
+              "RelativeDocumentMoniker": "Ex03.ConsoleUI\\Program.cs",
+              "ToolTip": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Ex03.ConsoleUI\\Program.cs",
+              "RelativeToolTip": "Ex03.ConsoleUI\\Program.cs",
+              "ViewState": "AgIAAOwAAAAAAAAAAAAiwPEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T17:25:31.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GarageManager.cs",
+              "DocumentMoniker": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Ex03.GarageLogic\\GarageManager.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\GarageManager.cs",
+              "ToolTip": "C:\\Users\\nadav\\Documents\\GitHub\\Ex03C-\\Ex03\\Ex03.GarageLogic\\GarageManager.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\GarageManager.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwOgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T16:25:19.929Z",
+              "EditorCaption": ""
             }
           ]
         }

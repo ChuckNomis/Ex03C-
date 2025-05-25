@@ -39,7 +39,7 @@
     <Compile Include="Program.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GarageLogic\Ex03.GarageLogic.csproj">
+    <ProjectReference Include="..\Ex03.GarageLogic\Ex03.GarageLogic.csproj">
       <Project>{a6a27b33-0193-417e-b289-df366d57d308}</Project>
       <Name>Ex03.GarageLogic</Name>
     </ProjectReference>

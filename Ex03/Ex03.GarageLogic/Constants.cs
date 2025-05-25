@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GarageLogic
 {
-    internal class Constants
+    public class Constants
     {
         public const int k_numberOfWheelsCar = 4;
         public const int k_numberOfWheelsMotorcycle = 2; 

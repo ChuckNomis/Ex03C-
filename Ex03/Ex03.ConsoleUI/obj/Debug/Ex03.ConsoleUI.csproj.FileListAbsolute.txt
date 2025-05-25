@@ -1,2 +1,13 @@
 C:\Users\almog\OneDrive\Documents\GitHub\Ex03C-\Ex03\Ex03.ConsoleUI\obj\Debug\Ex03.ConsoleUI.csproj.AssemblyReference.cache
 C:\Users\almog\OneDrive\Documents\GitHub\Ex03C-\Ex03\Ex03.ConsoleUI\obj\Debug\Ex03.ConsoleUI.csproj.CoreCompileInputs.cache
+C:\Users\nadav\Documents\GitHub\Ex03C-\Ex03\Ex03.ConsoleUI\obj\Debug\Ex03.ConsoleUI.csproj.AssemblyReference.cache
+C:\Users\nadav\Documents\GitHub\Ex03C-\Ex03\Ex03.ConsoleUI\obj\Debug\Ex03.ConsoleUI.csproj.CoreCompileInputs.cache
+C:\Users\nadav\Documents\GitHub\Ex03C-\Ex03\Ex03.ConsoleUI\bin\Debug\Ex03.ConsoleUI.exe.config
+C:\Users\nadav\Documents\GitHub\Ex03C-\Ex03\Ex03.ConsoleUI\bin\Debug\Ex03.ConsoleUI.exe
+C:\Users\nadav\Documents\GitHub\Ex03C-\Ex03\Ex03.ConsoleUI\bin\Debug\Ex03.ConsoleUI.pdb
+C:\Users\nadav\Documents\GitHub\Ex03C-\Ex03\Ex03.ConsoleUI\bin\Debug\GarageLogic.dll
+C:\Users\nadav\Documents\GitHub\Ex03C-\Ex03\Ex03.ConsoleUI\bin\Debug\GarageLogic.pdb
+C:\Users\nadav\Documents\GitHub\Ex03C-\Ex03\Ex03.ConsoleUI\bin\Debug\GarageLogic.dll.config
+C:\Users\nadav\Documents\GitHub\Ex03C-\Ex03\Ex03.ConsoleUI\obj\Debug\Ex03.Con.97A6B4C2.Up2Date
+C:\Users\nadav\Documents\GitHub\Ex03C-\Ex03\Ex03.ConsoleUI\obj\Debug\Ex03.ConsoleUI.exe
+C:\Users\nadav\Documents\GitHub\Ex03C-\Ex03\Ex03.ConsoleUI\obj\Debug\Ex03.ConsoleUI.pdb

@@ -6,12 +6,23 @@ using System.Threading.Tasks;
 
 namespace Ex03.GarageLogic
 {
-    internal class ElectricType
+    public class ElectricType
     {
         protected float m_maxBatteryTime;
         protected float m_currentBatteryTime;
-        
+
         //functions:
+
+        public void SetBatteryLevelFromPercent(float percent)
+        {
+            if (percent < 0 || percent > 100)
+            {
+                throw new ValueRangeException(0, 100);
+            }
+            m_currentBatteryTime = (percent / 100f) * m_maxBatteryTime;
+        }
+
+
         public void ChargingBattery(float i_batteryTime)
         {
             if(m_currentBatteryTime + i_batteryTime > m_maxBatteryTime)
