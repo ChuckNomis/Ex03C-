@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Clases_project
+namespace Ex03.GarageLogic
 {
     internal class Enums
     {
