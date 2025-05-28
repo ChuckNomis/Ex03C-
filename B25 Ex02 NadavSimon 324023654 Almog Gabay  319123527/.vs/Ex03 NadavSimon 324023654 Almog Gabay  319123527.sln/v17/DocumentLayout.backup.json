@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\B25 Ex02 NadavSimon 324023654 Almog Gabay  319123527\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|c:\\users\\almog\\onedrive\\documents\\github\\ex03c-\\b25 ex02 nadavsimon 324023654 almog gabay  319123527\\ex03.garagelogic\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\B25 Ex02 NadavSimon 324023654 Almog Gabay  319123527\\ex03.garagelogic\\valuerangeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6A27B33-0193-417E-B289-DF366D57D308}|Ex03.GarageLogic\\Ex03.GarageLogic.csproj|solutionrelative:ex03.garagelogic\\valuerangeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6BB333C-48EA-4094-8091-4331EA4F9475}|Ex03.ConsoleUI\\Ex03.ConsoleUI.csproj|C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\B25 Ex02 NadavSimon 324023654 Almog Gabay  319123527\\ex03.consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6BB333C-48EA-4094-8091-4331EA4F9475}|Ex03.ConsoleUI\\Ex03.ConsoleUI.csproj|solutionrelative:ex03.consoleui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\B25 Ex02 NadavSimon 324023654 Almog Gabay  319123527\\Ex03.GarageLogic\\Enums.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\Enums.cs",
+              "ToolTip": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\B25 Ex02 NadavSimon 324023654 Almog Gabay  319123527\\Ex03.GarageLogic\\Enums.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\Enums.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T18:51:01.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ValueRangeException.cs",
+              "DocumentMoniker": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\B25 Ex02 NadavSimon 324023654 Almog Gabay  319123527\\Ex03.GarageLogic\\ValueRangeException.cs",
+              "RelativeDocumentMoniker": "Ex03.GarageLogic\\ValueRangeException.cs",
+              "ToolTip": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\B25 Ex02 NadavSimon 324023654 Almog Gabay  319123527\\Ex03.GarageLogic\\ValueRangeException.cs",
+              "RelativeToolTip": "Ex03.GarageLogic\\ValueRangeException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T18:49:00.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\B25 Ex02 NadavSimon 324023654 Almog Gabay  319123527\\Ex03.ConsoleUI\\Program.cs",
+              "RelativeDocumentMoniker": "Ex03.ConsoleUI\\Program.cs",
+              "ToolTip": "C:\\Users\\almog\\OneDrive\\Documents\\GitHub\\Ex03C-\\B25 Ex02 NadavSimon 324023654 Almog Gabay  319123527\\Ex03.ConsoleUI\\Program.cs",
+              "RelativeToolTip": "Ex03.ConsoleUI\\Program.cs",
+              "ViewState": "AgIAAKYCAAAAAAAAAAAiwLICAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T18:43:27.876Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
